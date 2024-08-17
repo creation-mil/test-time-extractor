@@ -169,7 +169,7 @@ public class Main {
         // BUILD THE CSV
         csvString += "Test Time, Test Status, \n";
         for (TestData testData: testDataArray) {
-            csvString += testData.getTestTime() + "," + testData.getTestTime() + ",\n";
+            csvString += testData.getTestTime() + "," + testData.getTestStatus() + ",\n";
         }
 
         try {
